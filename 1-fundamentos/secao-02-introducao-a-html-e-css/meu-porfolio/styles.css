@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(111, 228, 164);
+}
+
+.meu-nome {
+    text-align: center;
+}
+
+.img-descricao {
+    display: flex;
+}
+
+#foto {
+    width: 350px;
+}
+
+.meu-nome, .descricao {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao {
+    width: 100%;
+    text-align: center;
+    padding-top: 8%;
+    font-size: large;
+}
+
+em {
+    color: rgb(67, 138, 83);
+}
+
+.habilidades {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.skills {
+    width: 100%;
+}
+
+.html {
+    font-size: 20px;
+}
+
+.css {
+    font-size: 18px;
+}
+
+.javascript {
+    font-size: 16px;
+}
+
+.sql {
+    font-size: 14px; 
+}
