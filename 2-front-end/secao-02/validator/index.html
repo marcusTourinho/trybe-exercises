@@ -7,7 +7,19 @@
 </head>
 <body>
   <main>
-
+    <h1>Validador de Campos</h1>
+    <form action="">
+      <input type="text" placeholder="Insira aqui o valor" id="value">
+      <select name="options" id="options">
+        <option value="cpf">CPF</option>
+        <option value="email">email</option>
+        <option value="rgb">RGB</option>
+        <option value="url">url</option>
+        <option value="date">data</option>
+      </select>
+      <button id="button">Validar</button>
+    </form>
+    <p id="answer">Digite o valor, escolha a opção e clique em validar</p>
   </main>
   <script src="src/main.js" type="module"></script>
 </body>
