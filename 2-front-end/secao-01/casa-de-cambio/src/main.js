@@ -35,7 +35,8 @@ const renderCoins = (coins) => {
   console.log(coinsArray);
 };
 
-const handleSearch = () => {
+const handleSearch = (event) => {
+  event.preventDefault();
   const coin = currency.value;
 
   if (!coin) {
