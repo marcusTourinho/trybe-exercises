@@ -6,6 +6,22 @@
   <title>Casa de Câmbio</title>
 </head>
 <body>
+  <header>
+    <h1>Casa de <span id="cambio">Câmbio</span></h1>
+  </header>
+  <main>
+    <form action="" id="coin-form">
+      <label for="currency">
+        Digite a moeda:
+        <input type="text" id="currency" placeholder="BRL">
+      </label>
+      <button type="button" id="button">Pesquisar</button>
+    </form>
+    <section id="currency-container">
+      <h2 id="currency-title"></h2>
+      <ul id="currency-list"></ul>
+    </section>
+  </main>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
