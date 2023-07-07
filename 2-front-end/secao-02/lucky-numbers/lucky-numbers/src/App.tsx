@@ -1,6 +1,8 @@
 import Greeting from './components/Greeting';
-import './App.css';
 import LuckyNumbers from './components/LuckyNumbers';
+import PastResults from './components/PastResults';
+
+import './App.css';
 
 const userName = {
   firstName: 'Marcus',
@@ -12,6 +14,7 @@ function App() {
     <>
       <Greeting userName={ userName } />
       <LuckyNumbers />
+      <PastResults />
     </>
   );
 }
