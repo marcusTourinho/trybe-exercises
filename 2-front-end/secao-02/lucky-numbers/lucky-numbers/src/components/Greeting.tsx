@@ -1,7 +1,13 @@
-function Greeting() {
-  const firstName = 'Marcus';
-  const lastName = 'Tourinho';
+type GreetingProps = {
+  userName: {
+    firstName: string,
+    lastName: string,
+  }
+};
 
+function Greeting({ userName }: GreetingProps) {
+  const { firstName } = userName;
+  const { lastName } = userName;
   return (
     <h1 className="greeting">
       Olá
